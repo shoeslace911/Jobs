@@ -7,18 +7,22 @@
     <title>Food Brand</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
+    <div class="logo-container">
+        <h1 class="logo">Food <span class="logo logo2">Brand</span></h1>
+        <nav>
+            <ul>
+                <a href="#design1"><li>Design 1</li></a>
+                <a href="#design2"><li>Design 2</li></a>
+            </ul>
+        </nav>
+    </div>  
     <section id="design1" class="landing-page first-example">
         <img class="landing-page-background-img" src="img/pexels-elle-hughes-1660030.jpg" alt="Background">
-        <div class="logo-container">
-            <h1 class="logo">Food <span class="logo logo2">Brand</span></h1>
-            <nav>
-                <ul>
-                    <a href="#design1"><li>Design 1</li></a>
-                    <a href="#design2"><li>Design 2</li></a>
-                </ul>
-            </nav>
-        </div>    
+        <div class="explain">
+        <h1>Design 1</h1>
+        <p>When the customer enters the site it is not greeted by anything else and goes straight to the menu.<br><br>Design 1 is pretty simple, showing cards with the food name and when the "Go to store ->" button is clicked it shows full details</p>
+    </div>
         <article class="food-img-wrapper">
             <div class="food-container">
                 <img class="food-img soup" src="img/chicken-noodle-soup.jpg" alt="Soup">
@@ -53,25 +57,19 @@
         </article>
     </section>
     <section id="design2" class="design2">
-        <div class="logo-container">
-            <h1 class="logo">Food <span class="logo logo2">Brand</span></h1>
-            <nav>
-                <ul>
-                    <a href="#design1"><li>Design 1</li></a>
-                    <a href="#design2"><li>Design 2</li></a>
-                </ul>
-            </nav>
-        </div>  
         <article class="design2-wrapper">
             <div class="design2-header-container">
                 <h1 class="logo">Food <span class="logo logo2">Brand</span></h1>
                 <p>Good food is good luck</p>
-                <button>MENU</button>
+                <a href="#menu"><button>MENU</button></a>
             </div>
             <div class="design2-header-slideshow">
                 <img class="slideshow-img" src="img/pancakes.jpg" alt="pancakes">
             </div>
         </article>
+        <article id="menu">
+
+        </article>  
     </section>
 </body>
 </html>
