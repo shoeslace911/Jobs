@@ -9,7 +9,10 @@
     scroll-behavior: smooth;
 }
 /*      tagss       */
-
+body{
+    
+    background-color: rgb(250, 238, 224);
+}
 nav ul li{
     display: inline;
     color: white;
@@ -31,7 +34,7 @@ a li:hover{
 button{
     background-color: pink;
     border-radius: 100px;
-    padding:1vmax;
+    padding:0.5vmax;
     width: 10vmax;
     font-size: 1.5vmax;
     cursor:pointer;
@@ -143,6 +146,10 @@ button{
 .design2{
     margin-top:20vmax;
 }
+.design2-explain{
+    position: sticky;
+    top:100px;
+}
 .design2-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -167,4 +174,33 @@ button{
 }
 .design2-header-container .logo{
     font-size:4vmax;
+}
+.design2-food-wrapper{
+    margin-left:15vmax;
+    display: flex;
+    margin-top:15vmax;
+    margin-right:15vmax;
+    flex-direction: column;
+}
+.design2-food-img{
+    width:50%;
+}
+.design2-food-container{
+    display: flex;
+    margin-bottom:3vmax;
+    background: rgba(231, 202, 164, 0.308);
+    border-radius: 100px;
+    padding:0.5vmax;
+}
+.design2-food-container{
+    cursor:pointer;
+}
+.design2-food-desc{
+    margin:auto 0 auto 2vmax;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.reverse h1{
+    margin-right:5vmax;
 }
